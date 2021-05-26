@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://felipedzul.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Personal website of Felipe Dzul"
@@ -33,7 +33,7 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project", "talk", "packages"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -76,7 +76,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/fdzul/felipe_dzul"
   [[params.social]]
       icon      = "facebook-square" # icon name without the 'fa-'
       icon_pack = "fab"
@@ -88,7 +88,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/FdzulM"
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
@@ -120,7 +120,11 @@ enableEmoji = true
     title = "Talks"
     url = "/talk/"
     weight = 4
-    
+  [[menu.header]]
+    name = "Packages"
+    title = "Packages"
+    url = "/packages/"
+    weight = 4
   # Configure footer  
   [[menu.footer]]
     name = "License"
