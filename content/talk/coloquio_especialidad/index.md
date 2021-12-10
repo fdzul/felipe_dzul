@@ -1,5 +1,5 @@
 ---
-title: "Coloqui de la Especialidad"
+title: "Coloquio de la Especialidad"
 subtitle: "Avances de Tesis"
 excerpt: "Yet another idea"
 date: 2022-01-11T14:15:59-06:00
@@ -10,7 +10,7 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- meetup
+- Académico
 ---
 
 {{< here >}}
